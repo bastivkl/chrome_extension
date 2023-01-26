@@ -29,3 +29,7 @@ This extension is a simple example of how to use autocomplete with jQuery UI in 
 
 ### Additional Information
 This extension is intended for educational purposes only and is not meant to be used in production. It may contain errors or vulnerabilities. Use at your own risk.
+
+
+https://user-images.githubusercontent.com/53534523/214846847-2f41e8cf-3015-4698-97aa-3b1abbeadd34.mov
+

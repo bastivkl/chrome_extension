@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "PL Do Not Contact",
+  "version": "2.0",
+  "description": "List of Companies not to contact people from",
+  "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "permissions": [
+      "activeTab",
+      "https://api.giphy.com/*"
+  ],
+  "content_security_policy": "script-src 'self' https://code.jquery.com https://code.jquery.com; object-src 'self'",
+  "content_scripts": [
+      {
+          "matches": ["<all_urls>"],
+          "js": ["jquery.min.js","jquery-ui.min.js","popup.js"]
+      }
+  ],
+  "web_accessible_resources": [
+      "icon.png"
+  ]
+}
